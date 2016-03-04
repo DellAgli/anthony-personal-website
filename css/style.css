@@ -7,12 +7,13 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	height: 75px;
-	width: 1000px;
+	width: 70%;
 	background-color: #003366;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-	padding-top: 25px;
+	border-radius: 20px;
+	padding-top: 20px;
 	padding-bottom: 25px;
+	min-width: 800px;
+
 }
 
 h1#title{
@@ -27,29 +28,60 @@ h1#title{
 	font-size: 24px;
 	color:Black;
 	text-decoration: none;
-	word-spacing: 30px;
+	word-spacing: 24px;
 }
 
-#bodypage{
+#frontpage{
 	margin-left: auto;
 	margin-right: auto;
-	width: 950px;
+	width: 70%;
+	height: 600px;
 	padding-top: 20px;
+	min-width: 800px;
 
 }
-#image{
+#left_side_content{
 	background-color: #757575;
-	width: 450px;
+	width: 49%;
 	display:inline-block;
 	height: 600px;
 	border-radius:10px;
+
+	position:relative;
+		
 }
-#content{
+#right_side_content{
 	
 	background-color: #757575;
-	width: 450px;
+	width: 49%;
 	display:inline-block;
 	height: 600px;
 	border-radius:10px;
+	float:right;
 }
 
+#portrait{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	display: block;
+    border-style: solid;
+    border-color: #FFFFFF;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left:-150px;
+    margin-top:-200px;
+}
+
+#right_side_content h1{
+	font-family: "Courier New";
+	margin: 11%;
+}
+
+
+#right_side_content p{
+	font-family: "Courier New";
+	margin: 10%;
+}
