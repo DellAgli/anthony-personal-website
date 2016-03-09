@@ -1,14 +1,14 @@
 /* All style should go in this document. */
 body{
-	background-color:#718498;
+	background-color: #eeedec;
 }
 
-#header{
+.header{
 	margin-left: auto;
 	margin-right: auto;
 	height: 75px;
 	width: 70%;
-	background-color: #003366;
+	background-color: #d6d5d4;
 	border-radius: 20px;
 	padding-top: 20px;
 	padding-bottom: 25px;
@@ -16,72 +16,74 @@ body{
 
 }
 
-h1#title{
-	padding-top: 5px;
-	padding-left: 20px;
-	font-family: "Courier New";
-	font-size:40px;
+.header_content{
+	width: 100%;
+	padding: auto;
 	
 }
 
-#links{
-	font-size: 24px;
-	color:Black;
-	text-decoration: none;
-	word-spacing: 24px;
+.header_content h1{
+	font-family: "Courier New";
+	margin-left: 10px;
 }
 
-#frontpage{
+.icon{
+	height: 80px;
+	width: auto;
+}
+
+.frontpage{
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
-	height: 600px;
+	height: 400px;
 	padding-top: 20px;
 	min-width: 800px;
 
 }
-#left_side_content{
-	background-color: #757575;
+.left_side_content{
+	background-color: #d6d5d4;
 	width: 49%;
 	display:inline-block;
-	height: 600px;
+	height: 100%;
 	border-radius:10px;
-
 	position:relative;
 		
 }
-#right_side_content{
+.right_side_content{
 	
-	background-color: #757575;
+	background-color: #d6d5d4;
 	width: 49%;
 	display:inline-block;
-	height: 600px;
+	height: 100%;
 	border-radius:10px;
 	float:right;
 }
 
-#portrait{
+.portrait{
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
 	display: block;
     border-style: solid;
     border-color: #FFFFFF;
-
     position: absolute;
     top: 50%;
     left: 50%;
     margin-left:-150px;
-    margin-top:-200px;
+    margin-top:-150px;
 }
 
-#right_side_content h1{
+.right_side_content h1{
 	font-family: "Courier New";
-	margin: 11%;
+	margin: 10%;
+
 }
 
 
-#right_side_content p{
+.right_side_content p{
 	font-family: "Courier New";
 	margin: 10%;
 }
+
+
