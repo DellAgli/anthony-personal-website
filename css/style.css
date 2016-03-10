@@ -16,27 +16,35 @@ body{
 
 }
 
-.header_content{
+.header_title{
 	width: 100%;
 	padding: auto;
 	
 }
 
-.header_content h1{
+.header_content a{ 
+	display:block;
+
+	
+}
+
+.header_title h1{
 	font-family: "Courier New";
 	margin-left: 10px;
+
 }
 
 .icon{
 	height: 80px;
 	width: auto;
+	border:0;
 }
 
 .frontpage{
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
-	height: 400px;
+	height: 600px;
 	padding-top: 20px;
 	min-width: 800px;
 
@@ -68,10 +76,22 @@ body{
     border-style: solid;
     border-color: #FFFFFF;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     margin-left:-150px;
     margin-top:-150px;
+}
+
+.subtitle{
+	width: 100%
+	background-color:RED;
+	height: 100%;
+
+}
+
+.content_header{
+	width: 100%;
+	padding: 5px;
 }
 
 .right_side_content h1{
