@@ -1,94 +1,96 @@
-
 body {
-	background-color: #eeedec;
+    background-color: #eeedec;
 }
 
 .header {
-	margin-left: auto;
-	margin-right: auto;
-	height: 75px;
-	width: 70%;
-	background-color: #d6d5d4;
-	border-radius: 20px;
-	padding-top: 20px;
-	padding-bottom: 25px;
-	min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    width: 70%;
+    background-color: #d6d5d4;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    min-width: 800px;
 }
 
 .header_title {
-	width: 100%;
-	padding: auto;
-	
+    width: 100%;
+    padding: auto;
 }
 
-.header_content a { 
-	display:block;
+.header_content a {
+    display: block;
 }
 
 .header_title h1 {
-	font-family: "Courier New";
-	margin-left: 10px;
-	text-shadow: 1px 1px #7b1822;
+    font-family: "Courier New";
+    margin-left: 10px;
+    text-shadow: 1px 1px #7b1822;
 }
 
 .icon {
-	height: 80px;
-	width: auto;
-	border:0;
+    height: 80px;
+    width: auto;
+    border: 0;
 }
 
 .frontpage {
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
-	height: 750px;
-	padding-top: 20px;
-	min-width: 800px;
-}
-.left_side_content {
-	background-color: #d6d5d4;
-	width: 49%;
-	display:inline-block;
-	height: 100%;
-	border-radius:10px;
-	position:relative;
-	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 750px;
+    padding-top: 20px;
+    min-width: 800px;
 }
 
+.left_side_content,
 .right_side_content {
-	background-color: #d6d5d4;
-	width: 49%;
-	display:inline-block;
-	height: 100%;
-	border-radius:10px;
-	float:right;
+    background-color: #d6d5d4;
+    width: 49%;
+    display: inline-block;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.left_side_content {    
+    position: relative;
+    text-align: center;
+}
+
+.right_side_content {    
+    float: right;
 }
 
 .portrait {
-	width: 350px;
-	height: 350x;
-	border-radius: 50%;
-	display: block;
+    width: 350px;
+    height: 350x;
+    border-radius: 50%;
+    display: block;
     border-style: solid;
     border-color: #FFFFFF;
-    margin:auto;
-    margin-top:15%;
+    margin: auto;
+    margin-top: 15%;
 }
-.subtitles{
-	margin-top: 20%;
-	font-family: "Courier New";
-	font-size: 20px;
+
+.subtitles {
+    margin-top: 20%;
+    font-family: "Courier New";
+    font-size: 20px;
 }
-.subtitles p{
-	margin: 10px;
+
+.subtitles p {
+    margin: 10px;
 }
+
 .right_side_content h1 {
-	margin: 10%;
-	font-size: 28px;
-	font-family: "Courier New";
+    margin: 10%;
+    font-size: 28px;
+    font-family: "Courier New";
 }
+
 .right_side_content p {
-	font-family: "Courier New";
-	margin: 32px;
-	font-size: 24px;
+    font-family: "Courier New";
+    margin: 32px;
+    font-size: 24px;
 }
