@@ -11,7 +11,7 @@ body {
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 25px;
-    min-width: 800px;
+    min-width: 300px;
 }
 
 .header_title {
@@ -41,7 +41,7 @@ body {
     width: 70%;
     height: 750px;
     padding-top: 20px;
-    min-width: 800px;
+    min-width: 350px;
 }
 
 .left_side_content,
@@ -51,6 +51,7 @@ body {
     display: inline-block;
     height: 100%;
     border-radius: 10px;
+    min-width: 175px;
 }
 
 .left_side_content {    
@@ -63,14 +64,14 @@ body {
 }
 
 .portrait {
-    width: 350px;
-    height: 350x;
+    width: 75%;
+    height: auto;
     border-radius: 50%;
-    display: block;
     border-style: solid;
     border-color: #FFFFFF;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 10%;
+    max-width: 350px;
 }
 
 .subtitles {
@@ -81,6 +82,7 @@ body {
 
 .subtitles p {
     margin: 10px;
+    word-wrap: break-word;
 }
 
 .right_side_content h1 {
@@ -93,4 +95,20 @@ body {
     font-family: "Courier New";
     margin: 32px;
     font-size: 24px;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+.left_side_content,
+.right_side_content{
+    display:block;
+    width:100%;
+    margin-bottom: 20px;
+
+}
+.portrait{
+    height:50%;
+    width:auto;
+}
+
 }
