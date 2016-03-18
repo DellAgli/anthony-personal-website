@@ -14,16 +14,16 @@ body {
     min-width: 300px;
 }
 
-.header_title {
+.header-title {
     width: 100%;
     padding: auto;
 }
 
-.header_content a {
+.header-content a {
     display: block;
 }
 
-.header_title h1 {
+.header-title h1 {
     font-family: "Courier New";
     margin-left: 10px;
     text-shadow: 1px 1px #7b1822;
@@ -44,8 +44,8 @@ body {
     min-width: 350px;
 }
 
-.left_side_content,
-.right_side_content {
+.left-side-content,
+.right-side-content {
     background-color: #d6d5d4;
     width: 49%;
     display: inline-block;
@@ -54,12 +54,12 @@ body {
     min-width: 175px;
 }
 
-.left_side_content {    
+.left-side-content {    
     position: relative;
     text-align: center;
 }
 
-.right_side_content {    
+.right-side-content {    
     float: right;
 }
 
@@ -85,13 +85,13 @@ body {
     word-wrap: break-word;
 }
 
-.right_side_content h1 {
+.right-side-content h1 {
     margin: 10%;
     font-size: 28px;
     font-family: "Courier New";
 }
 
-.right_side_content p {
+.right-side-content p {
     font-family: "Courier New";
     margin: 32px;
     font-size: 24px;
@@ -99,8 +99,8 @@ body {
 
 @media only screen and (max-device-width: 500px) {
 
-.left_side_content,
-.right_side_content{
+.left-side-content,
+.right-side-content{
     display:block;
     width:100%;
     margin-bottom: 20px;
