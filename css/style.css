@@ -97,7 +97,7 @@ body {
     font-size: 24px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 500px) {
 
 .left_side_content,
 .right_side_content{
