@@ -33,6 +33,13 @@ body {
     height: 80px;
     width: auto;
     border: 0;
+    -webkit-transition: -webkit-transform 3s;
+    transition: transform 3s;
+}
+
+.icon:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 .frontpage {
@@ -64,6 +71,7 @@ body {
 }
 
 .portrait {
+    max-width: 350px;
     width: 75%;
     height: auto;
     border-radius: 50%;
@@ -71,7 +79,6 @@ body {
     border-color: #FFFFFF;
     margin: auto;
     margin-top: 10%;
-    max-width: 350px;
 }
 
 .subtitles {
@@ -85,6 +92,12 @@ body {
     word-wrap: break-word;
 }
 
+.subtitles p a {
+    color:#3a3a3a;
+    margin: 10px;
+    word-wrap: break-word;
+}
+
 .right-side-content h1 {
     margin: 10%;
     font-size: 28px;
@@ -92,6 +105,7 @@ body {
 }
 
 .right-side-content p {
+    text-indent: 20px;
     font-family: "Courier New";
     margin: 32px;
     font-size: 24px;
@@ -100,13 +114,13 @@ body {
 @media only screen and (max-device-width: 500px) {
 
 .left-side-content,
-.right-side-content{
+.right-side-content {
     display:block;
     width:100%;
     margin-bottom: 20px;
 
 }
-.portrait{
+.portrait {
     height:50%;
     width:auto;
 }
