@@ -1,109 +1,19 @@
-Skip to content
-This repository  
-Search
-Pull requests
-Issues
-Gist
- @DellAgli
- Unwatch 1
-  Star 0
-  Fork 0 DellAgli/anthony-personal-website
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
-Tree: cbae3a29be Find file Copy pathanthony-personal-website/css/style.css
-cbae3a2  19 minutes ago
-@DellAgli DellAgli Increase font-size for readability and add subtitles below portrait
-1 contributor
-RawBlameHistory     93 lines (84 sloc)  1.33 KB
-body {
-	background-color: #eeedec;
+.portrait{
+  height: 300px;
+  width: auto!important;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%!important;
 }
 
-.header {
-	margin-left: auto;
-	margin-right: auto;
-	height: 75px;
-	width: 70%;
-	background-color: #d6d5d4;
-	border-radius: 20px;
-	padding-top: 20px;
-	padding-bottom: 25px;
-	min-width: 800px;
+.parallax-container {
+  height: 100vh;
 }
 
-.header_title {
-	width: 100%;
-	padding: auto;
-	
+.card.larger{
+  height:600px;
 }
 
-.header_content a { 
-	display:block;
-}
-
-.header_title h1 {
-	font-family: "Courier New";
-	margin-left: 10px;
-	text-shadow: 1px 1px #7b1822;
-}
-
-.icon {
-	height: 80px;
-	width: auto;
-	border:0;
-}
-
-.frontpage {
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
-	height: 750px;
-	padding-top: 20px;
-	min-width: 800px;
-}
-.left_side_content {
-	background-color: #d6d5d4;
-	width: 49%;
-	display:inline-block;
-	height: 100%;
-	border-radius:10px;
-	position:relative;
-	text-align: center;
-}
-
-.right_side_content {
-	background-color: #d6d5d4;
-	width: 49%;
-	display:inline-block;
-	height: 100%;
-	border-radius:10px;
-	float:right;
-}
-
-.portrait {
-	width: 350px;
-	height: 350x;
-	border-radius: 50%;
-	display: block;
-    border-style: solid;
-    border-color: #FFFFFF;
-    margin:auto;
-    margin-top:15%;
-}
-.subtitles{
-	margin-top: 20%;
-	font-family: "Courier New";
-	font-size: 20px;
-}
-.subtitles p{
-	margin: 10px;
-}
-.right_side_content h1 {
-	margin: 10%;
-	font-size: 28px;
-	font-family: "Courier New";
-}
-.right_side_content p {
-	font-family: "Courier New";
-	margin: 32px;
-	font-size: 24px;
+.blue-link{
+  color:BLUE!important;
 }
