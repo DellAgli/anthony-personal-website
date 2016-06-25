@@ -34,4 +34,18 @@
 .card-header{
   font-size: 48px;
   margin-left: 10px;
+<<<<<<< HEAD
+=======
+}
+
+.link-grey{
+  color: #424242
+}
+
+.parallax-container{
+  margin-bottom: 20px;
+}
+
+.button-collapse{
+  margin-left: 20px;
 }
