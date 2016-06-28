@@ -51,7 +51,7 @@ $(document).ready(function(){
      	a0.textContent ='Check it out';
      	cardContent.appendChild(a0)
      	let a1 = document.createElement('a');
-     	if(project.hostLink){
+     	if(project.githubLink){
      		a1.setAttribute('class', 'waves-effect waves-light btn  grey darken-3')
      		a1.setAttribute('href', project.githubLink)
      		a1.setAttribute('target', '_blank')
