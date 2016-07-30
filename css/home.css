@@ -1,0 +1,60 @@
+.home-footer{
+	margin-top: 0!important;
+}
+
+.home-parallax{
+	height: 90vh!important;
+	margin-bottom: 0!important;
+}
+
+.hello{
+	font-size: 56px!important;
+	color: #fff;
+	-webkit-text-stroke: 4px #000;
+	font-size: 15vw!important;
+	text-align: center;
+
+	padding-bottom: 10px;/*For Stoke*/
+	padding-top: 10px;/*For Stoke*/
+
+	margin-top: 18vh;
+	margin-left: 5px;
+	margin-right: 5px;
+
+	/* NO HIGHLIGHT */
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;           
+}
+
+.links-list{
+	text-align: center;
+	margin-top: 15vh;
+}
+
+.links-list li {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.home-card{
+	height: 50%
+}
+
+.btn-floating.btn-xlarge {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-floating.btn-xlarge i {
+    line-height: 100px;
+}
+
+.btn-xlarge i {
+    font-size: 3rem;
+}

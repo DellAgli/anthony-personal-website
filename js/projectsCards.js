@@ -21,7 +21,7 @@ $(document).ready(function(){
      	imgDiv.setAttribute('class', 'card-image');
      	let imgA = document.createElement('a');
      	let img = document.createElement('img');
-     	img.setAttribute('class', 'valign')
+     	img.setAttribute('class', 'project-img')
      	img.setAttribute('src', project.imgLink)
      	if(project.hostLink){
      		imgA.setAttribute('href', project.hostLink)

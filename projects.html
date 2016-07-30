@@ -7,46 +7,67 @@
   <link rel="shortcut icon" href="media/favicon-96x96.png" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-  <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/projects.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-  <script src="js/main.js"></script>
+    <script src="https://npmcdn.com/masonry-layout@4.1.0/dist/masonry.pkgd.min.js"></script>
+
   <script src="js/projects.js"></script>
   <script src="js/projectsCards.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
   <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper grey darken-3">
-        <a href="index.html" class="brand-logo">Anthony Dell'Agli</a>
-        <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
-        <ul class="right hide-on-med-and-down">
-          <!--li><a href=about.html" class="right navbar-link"> <i class="fa fa-user fa-2x" aria-hidden="true"></i><span class="navbar-label">About Me</span> </a></li-->
-          <li><a href="projects.html" class="right navbar-link"> <i class="fa fa-wrench fa-2x" aria-hidden="true"></i><span class="navbar-label">Projects</span> </a></li>
-          <li><a href="https://github.com/DellAgli" class="right navbar-link"> <i class="fa fa-github fa-2x" aria-hidden="true"></i><span class="navbar-label">GitHub</span> </a></li>
-          <li><a href="mailto:anthony.dellagli@gmail.com" class="right navbar-link"> <i class="fa fa-envelope fa-2x" aria-hidden="true"></i><span class="navbar-label">Email</span> </a></li>
-          <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" class="right navbar-link"> <i class="fa fa-file-text fa-2x" aria-hidden="true"></i><span class="navbar-label">Resume</span></a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-nav">
-          <!--li><a href="about.html"> About Me</a></li-->
-          <li><a href="projects.html"> Projects</a></li>
-          <li><a href="https://github.com/DellAgli">GitHub </a></li>
-          <li><a href="mailto:anthony.dellagli@gmail.com">Email </a></li>
-          <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf">Resume </a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+    
+  <ul id="contacts" class="dropdown-content">
+    <li><a class="grey-text text-darken-3" href="mailto:anthony.dellagli@gmail.com" >Email</a></li>
+    <li><a class="grey-text text-darken-3" href="https://github.com/DellAgli" target="_blank">Github</a></li>
+    <li><a class="grey-text text-darken-3" href="https://twitter.com/anthonydellagli" target="_blank">Twitter </a></li>
+    <li><a class="grey-text text-darken-3" href="https://instagram.com/dell.agli" target="_blank">Instagram </a></li>
+  </ul>
+
+  <nav>
+    <div class="nav-wrapper grey darken-3">
+      <a href="index.html" class="brand-logo">Anthony Dell'Agli</a>
+      <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="about.html" class="right navbar-link"><span class="navbar-label">About Me</span> </a></li>
+        <li><a href="projects.html" class="right navbar-link"><span class="navbar-label">Projects</span> </a></li>
+        <li><a class="dropdown-button" data-activates="contacts">Links &#9660</a></li>
+        <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" class="right navbar-link" target="_blank"> <span class="navbar-label">Resume</span></a></li>
+        
+      </ul>
+      <ul class="side-nav" id="mobile-nav">
+        <li><a href="about.html"> About Me</a></li>
+        <li><a href="projects.html"> Projects</a></li>
+        <li><a href="https://github.com/DellAgli" target="_blank">GitHub </a></li>
+        <li><a href="mailto:anthony.dellagli@gmail.com">Email </a></li>
+        <li><a href="https://twitter.com/anthonydellagli">Twitter </a></li>
+        <li><a href="https://instagram.com/dell.agli">Instagram </a></li>
+        <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" target="_blank">Resume </a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+</div>
+
   <div class="parallax-container animated fadeIn">
     <div class="parallax"><img src="media/background.jpg">
     </div>
+    <h1 class="main-title card-header truncate">
+      My Projects
+      </h1>
   </div>
 
 
-  <div class="container">
+  <div class="container" >
     <div class="row" id="projects-space">
 
     </div>
