@@ -1,3 +1,4 @@
+var helloInterval;
 changeHello = function(){
 	let nextHello = HELLOS[Math.floor(Math.random()*HELLOS.length)];
 	while(nextHello === $('#hello').text()){
@@ -7,12 +8,15 @@ changeHello = function(){
 		$('#hello').text(nextHello);
 	$('#hello').fadeIn();
 	});
+
+	clearInterval(helloInterval);
+	helloInterval = setInterval(changeHello, 10000)
 	
 };
 
  $(document).ready(function(){
      changeHello();
-     setInterval(changeHello, 10000)
+     
    });
 
 

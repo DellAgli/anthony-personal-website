@@ -18,48 +18,85 @@
 </head>
 <body>
   <div class="navbar-fixed">
+
+    <ul id="contacts" class="dropdown-content">
+      <li><a class="grey-text text-darken-3" href="mailto:anthony.dellagli@gmail.com" >Email</a></li>
+      <li><a class="grey-text text-darken-3" href="https://github.com/DellAgli" target="_blank">Github</a></li>
+      <li><a class="grey-text text-darken-3" href="https://twitter.com/anthonydellagli" target="_blank">Twitter </a></li>
+      <li><a class="grey-text text-darken-3" href="https://instagram.com/dell.agli" target="_blank">Instagram </a></li>
+    </ul>
+
     <nav>
       <div class="nav-wrapper grey darken-3">
         <a href="index.html" class="brand-logo">Anthony Dell'Agli</a>
         <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="about.html" class="right navbar-link"></i><span class="navbar-label">About Me</span> </a></li>
+          <li><a href="about.html" class="right navbar-link"><span class="navbar-label">About Me</span> </a></li>
           <li><a href="projects.html" class="right navbar-link"><span class="navbar-label">Projects</span> </a></li>
-          <li><a href="https://github.com/DellAgli" class="right navbar-link"><span class="navbar-label">GitHub</span> </a></li>
-          <li><a href="mailto:anthony.dellagli@gmail.com" class="right navbar-link"> <span class="navbar-label">Email</span> </a></li>
-          <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" class="right navbar-link"> <span class="navbar-label">Resume</span></a></li>
+          <li><a class="dropdown-button" data-activates="contacts">Links &#9660</a></li>
+          <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" class="right navbar-link" target="_blank"> <span class="navbar-label">Resume</span></a></li>
+
         </ul>
         <ul class="side-nav" id="mobile-nav">
           <li><a href="about.html"> About Me</a></li>
           <li><a href="projects.html"> Projects</a></li>
-          <li><a href="https://github.com/DellAgli">GitHub </a></li>
+          <li><a href="https://github.com/DellAgli" target="_blank">GitHub </a></li>
           <li><a href="mailto:anthony.dellagli@gmail.com">Email </a></li>
-          <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf">Resume </a></li>
+          <li><a href="https://twitter.com/anthonydellagli">Twitter </a></li>
+          <li><a href="https://instagram.com/dell.agli">Instagram </a></li>
+          <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" target="_blank">Resume </a></li>
         </ul>
       </div>
     </nav>
-</div>
+  </div>
 
   <div class="parallax-container animated fadeIn">
     <div class="parallax"><img src="media/background.jpg">
     </div>
     <h1 class="main-title card-header truncate">
       About Anthony
-      </h1>
+    </h1>
   </div>
 
 
   <div class="container">
-    
-<div class="row">
-      <div class="col s10 offset-s1">
+
+    <div class="row">
+      <div class="col s12">
         <div class="card animated fadeIn">
-          <span class="card-header">About Me</span>
-          <div class="card-image">
-            <img class="portrait valign" src="media/portrait.png">
-          </div>
-          <div class="card-content">
-            <p>Hello Friend. You've stumbled upon the website of Anthony Dell'Agli. I am a student at the University of Connecticut and a Certified A100 developer. Feel free to contact me via <a href="mailto:anthony.dellagli@gmail.com">email</a> or checkout my <a href="https://github.com/DellAgli">GitHub</a> profile and   <a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf"> resume </a>.</p>
+          <span class="card-header">Who Am I?</span>
+
+          <div class="row">
+            <div class="col s3 image-div">
+              <img class="portrait" src="media/portrait.png">
+            </div>
+            <div class="col s9 card-content">
+              <p>Hello Friends! My name is Anthony Dell'Agli. I study Computer Science & Engineering at the University of Connecticut. I am passionate about coding, being terrible at videogames, and having a lackluster social media presence.</p>
+              <hr>
+              <p>I am well versed in the following programming languages, frameworks, and tools:</p>
+              <div class="row">
+                <div class="col s6">
+                  <ul>
+                    <li> Java </li>
+                    <li> HTML/CSS </li>
+                    <li> JavaScript </li>
+                    <li> Scheme </li>
+                  </ul>
+                </div>
+                <div class="col s6">
+                  <ul>
+                    <li> Meteor </li>
+                    <li> MongoDB </li>
+                    <li> Git </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-action">
+              <a class="right grey-text" href="mailto:anthony.dellagli@gmail.com"  target="_blank">Email</a>
+              <a class="right grey-text" href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" target="_blank">Full Resume</a>
+            </div>
+            </div>
+             
           </div>
         </div>
       </div>
@@ -69,7 +106,7 @@
 
   </div>
 
-  <footer class="page-footer grey darken-3">
+  <footer class="page-footer grey darken-3 home-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -80,9 +117,11 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="mailto:anthony.dellagli@gmail.com">anthony.dellagli@gmail.com</a></li>
-            <li><a class="grey-text text-lighten-3" href="https://github.com/DellAgli">Github Profile </a></li>
-            <li><a class="grey-text text-lighten-3" href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf">Resume</a></li>
+            <li><a class="grey-text text-lighten-3" href="mailto:anthony.dellagli@gmail.com" >anthony.dellagli@gmail.com</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/DellAgli" target="_blank">Github Profile </a></li>
+            <li><a class="grey-text text-lighten-3" href="https://twitter.com/anthonydellagli" target="_blank">Twitter </a></li>
+            <li><a class="grey-text text-lighten-3" href="https://instagram.com/dell.agli" target="_blank">Instagram </a></li>
+            <li><a class="grey-text text-lighten-3" href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" target="_blank">Resume</a></li>
           </ul>
         </div>
 

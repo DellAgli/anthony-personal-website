@@ -1,7 +1,13 @@
+.image-div{
+	height: 100%;
+}
+
 .portrait{
-  height: 300px;
-  width: auto!important;
+  height: auto;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%!important;
+  display: block;
+  margin-top: 5%;
 }
