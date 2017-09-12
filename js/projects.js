@@ -17,6 +17,15 @@ PROJECTS = [
 
 },
 
+{
+	title: "LISA*",
+	desciption: "LISA* is a voice recognition system which runs as a browser extension for Google Chrome. It allows the user to record and repeat actions within the web browser by triggering a voice activated command. Built using Knockout.js, Google Chrome Extension Framework, and <a href='https://cmusphinx.github.io/'>CMUSphinx</a>.",
+	imgLink: "media/LISA.png",
+	hostLink: "http://www.cse.uconn.edu/wp-content/uploads/2017/04/CSE-SDP-2016-2117.pdf#page=21",
+	githubLink: null
+
+},
+
 /**
 {
 	title: "",
@@ -26,5 +35,5 @@ PROJECTS = [
 	githubLink: ""
 
 },
-*/	
+*/
 ]

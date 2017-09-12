@@ -37,27 +37,27 @@ $(document).ready(function(){
      	let cardContent = document.createElement('div');
      	cardContent.className="card-content";
      	let p = document.createElement('p');
-     	p.textContent = project.desciption;
+     	p.innerHTML = project.desciption;
      	cardContent.appendChild(p);
      	let a0 = document.createElement('a');
      	if(project.hostLink){
-     		a0.setAttribute('class', 'waves-effect waves-light btn  grey darken-3')
+     		a0.setAttribute('class', 'waves-effect waves-light btn  blue darken-4')
      		a0.setAttribute('href', project.hostLink)
      		a0.setAttribute('target', '_blank')
      	}
      	else{
-     		a0.setAttribute('class', 'disabled waves-effect waves-light btn  grey darken-3')
+     		a0.setAttribute('class', 'disabled waves-effect waves-light btn  blue darken-4')
      	}
      	a0.textContent ='Check it out';
      	cardContent.appendChild(a0)
      	let a1 = document.createElement('a');
      	if(project.githubLink){
-     		a1.setAttribute('class', 'waves-effect waves-light btn  grey darken-3')
+     		a1.setAttribute('class', 'waves-effect waves-light btn  blue darken-4')
      		a1.setAttribute('href', project.githubLink)
      		a1.setAttribute('target', '_blank')
      	}
      	else{
-     		a1.setAttribute('class', 'disabled waves-effect waves-light btn  grey darken-3')
+     		a1.setAttribute('class', 'disabled waves-effect waves-light btn  blue darken-4')
      	}
      	a1.textContent= 'GitHub';
      	cardContent.appendChild(a1);
