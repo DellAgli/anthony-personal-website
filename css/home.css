@@ -2,32 +2,9 @@
 	margin-top: 0!important;
 }
 
-.home-parallax{
+.home-section{
 	height: 90vh!important;
-	margin-bottom: 0!important;
-}
-
-.hello{
-	font-size: 56px!important;
-	color: #fff;
-	-webkit-text-stroke: 4px #000;
-	font-size: 15vw!important;
-	text-align: center;
-
-	padding-bottom: 10px;/*For Stoke*/
-	padding-top: 10px;/*For Stoke*/
-
-	margin-top: 10%;
-	margin-left: 5px;
-	margin-right: 5px;
-
-	/* NO HIGHLIGHT */
-	-webkit-touch-callout: none; /* iOS Safari */
-	-webkit-user-select: none;   /* Chrome/Safari/Opera */
-	-khtml-user-select: none;    /* Konqueror */
-	-moz-user-select: none;      /* Firefox */
-	-ms-user-select: none;       /* Internet Explorer/Edge */
-	user-select: none;           
+    margin-bottom: 0!important;
 }
 
 .links-list{
@@ -39,12 +16,8 @@
 	display: inline-block;
 	margin-left: 50px;
 	margin-right: 50px;
-
 }
 
-.home-card{
-	height: 50%
-}
 
 .btn-floating.btn-xlarge {
     width: 100px;
@@ -58,3 +31,32 @@
 .btn-xlarge i {
     font-size: 3rem;
 }
+
+.image-div{
+	height: 100%;
+}
+
+.portrait{
+  height: auto;
+  width: 260px;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%!important;
+  display: block;
+  margin-right:10px;
+
+  float:left
+}
+
+.card-content{
+    margin-bottom:70px;
+    min-height:300px;
+}
+
+.home-card{
+    max-width:800px;
+    max-height:98%;
+}
+
+

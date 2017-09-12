@@ -18,96 +18,83 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-  
+
   <script src="js/main.js"></script>
   <script src="js/hellos.js"></script>
-
 </head>
 <body>
-
-  <ul id="contacts" class="dropdown-content">
-    <li><a class="grey-text text-darken-3" href="mailto:anthony.dellagli@gmail.com" >Email</a></li>
-    <li><a class="grey-text text-darken-3" href="https://github.com/DellAgli" target="_blank">Github</a></li>
-    <li><a class="grey-text text-darken-3" href="https://twitter.com/anthonydellagli" target="_blank">Twitter </a></li>
-    <li><a class="grey-text text-darken-3" href="https://instagram.com/dell.agli" target="_blank">Instagram </a></li>
-  </ul>
-
   <nav>
-    <div class="nav-wrapper grey darken-3">
+    <div class="nav-wrapper blue darken-4">
       <a href="index.html" class="brand-logo">Anthony Dell'Agli</a>
-      <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="about.html" class="right navbar-link"><span class="navbar-label">About Me</span> </a></li>
-        <li><a href="projects.html" class="right navbar-link"><span class="navbar-label">Projects</span> </a></li>
-        <li><a class="dropdown-button" data-activates="contacts">Links &#9660</a></li>
-        <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" class="right navbar-link" target="_blank"> <span class="navbar-label">Resume</span></a></li>
-        
-      </ul>
+
       <ul class="side-nav" id="mobile-nav">
-        <li><a href="about.html"> About Me</a></li>
         <li><a href="projects.html"> Projects</a></li>
-        <li><a href="https://github.com/DellAgli" target="_blank">GitHub </a></li>
         <li><a href="mailto:anthony.dellagli@gmail.com">Email </a></li>
-        <li><a href="https://twitter.com/anthonydellagli">Twitter </a></li>
-        <li><a href="https://instagram.com/dell.agli">Instagram </a></li>
         <li><a href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" target="_blank">Resume </a></li>
       </ul>
+
+      <ul class="right hide-on-med-and-down">
+          <li><a href="projects.html" class="right navbar-link"><span class="navbar-label">Projects</span> </a></li>
+          <li><a href="mailto:anthony.dellagli@gmail.com" class="right navbar-link"><span class="navbar-label">Email</span> </a></li>
+          <li><a href="https://www.dropbox.com/s/2n37axenbk9qnkb/AnthonyDellAgliResume.pdf?dl=0" class="right navbar-link" target="_blank"> <span class="navbar-label">Resume</span></a></li>
+        </ul>
     </div>
   </nav>
 
 
 
 
-  <div class="parallax-container animated fadeIn home-parallax">
-    <div class="parallax"><img src="media/background.jpg">
+  <div class="animated fadeIn home-section">
+    <div style="height:90vh;width:100%;position:absolute;background-image:url('media/background.jpg'); background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;" ></img>
+      <div class="container" style="height:100%">
+        <div class="row" style="height:100%">
+          <div class="col s12" style="height:100%; display:flex;flex-direction: column;justify-content: center;align-items: center;">
+            <div class="card animated fadeIn home-card">
+              <div class="card-header" id="hello" onclick="changeHello()">Who Am I?</div>
+
+              <div class="card-content">
+                <img class="portrait" src="media/portrait.png">
+                <p>
+                  My name is Anthony Dell'Agli and I teach rocks how to do math using lightening.
+                  I am a graduate of the University of Connecticut and a young software developer.
+                  I am passionate about Computer Science and Mathematics.
+                  I work as a developer using the Microsoft web stack(C#, ASP.NET, SQL), but I am always enthusiastic to employ new technologies to help solve new problems.
+
+                </p>
+              </div>
+              <div class="card-action" style="position: absolute;bottom: 0;width:100%">
+                  <a class="right blue-text" href="mailto:anthony.dellagli@gmail.com"  >Email</a>
+                  <a class="right blue-text" href="https://www.dropbox.com/s/2n37axenbk9qnkb/AnthonyDellAgliResume.pdf?dl=0" target="_blank">Full Resume</a>
+                  <a class="right blue-text" href="https://www.linkedin.com/in/anthony-dell-agli-a10180129/" target="_blank">LinkedIn</a>
+                  <a class="right blue-text" href="https://github.com/DellAgli" target="_blank">Github</a>
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <a onclick="changeHello()">
-      <h1 class="hello card-header truncate" id="hello">   =( </h1>
-    </a>
-    <ul class="links-list">
-      <li> <a class="btn-floating btn-xlarge waves-effect waves-light indigo darken-4" href="https://github.com/DellAgli" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a> </li>
-      <li> <a class="btn-floating btn-xlarge waves-effect waves-light indigo darken-4" href="https://twitter.com/anthonydellagli" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
-      <li> <a class="btn-floating btn-xlarge waves-effect waves-light indigo darken-4" href="https://instagram.com/dell.agli" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
-    </ul>
 
   </div>
 
-  <footer class="page-footer grey darken-3 home-footer">
+<footer class="page-footer blue darken-4 home-footer">
     <div class="container">
-      <div class="row">
+      <div class="row" style="margin-bottom:0; padding-bottom:20px;">
         <div class="col l6 s12">
           <h5 class="white-text">Anthony Dell'Agli</h5>
-          <p class="grey-text text-lighten-4">Personal Resume Website</p>
 
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
             <li><a class="grey-text text-lighten-3" href="mailto:anthony.dellagli@gmail.com" >anthony.dellagli@gmail.com</a></li>
-            <li><a class="grey-text text-lighten-3" href="https://github.com/DellAgli" target="_blank">Github Profile </a></li>
-            <li><a class="grey-text text-lighten-3" href="https://twitter.com/anthonydellagli" target="_blank">Twitter </a></li>
-            <li><a class="grey-text text-lighten-3" href="https://instagram.com/dell.agli" target="_blank">Instagram </a></li>
-            <li><a class="grey-text text-lighten-3" href="https://dl.dropboxusercontent.com/u/37079902/IMPORTANT/Anthony%20Dell%27Agli.pdf" target="_blank">Resume</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.dropbox.com/s/2n37axenbk9qnkb/AnthonyDellAgliResume.pdf?dl=0" target="_blank">Resume</a></li>
           </ul>
         </div>
-
       </div>
-    </div>
-    <div class="footer-copyright">
     </div>
   </footer>
 
-
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-81789709-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </body>
 </html>

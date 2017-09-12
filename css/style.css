@@ -8,12 +8,8 @@
   margin-left: 10px;
 }
 
-.parallax-container {
-  height: 40vh;
-}
-
 .card-content p{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .card-content p a{
@@ -24,6 +20,7 @@
 .card-header{
   font-size: 48px;
   margin-left: 10px;
+  height:60px;
 }
 
 .parallax-container{
@@ -52,5 +49,5 @@
   -khtml-user-select: none;    /* Konqueror */
   -moz-user-select: none;      /* Firefox */
   -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           
+  user-select: none;
 }
