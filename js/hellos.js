@@ -11,24 +11,24 @@ changeHello = function(){
 
 	clearInterval(helloInterval);
 	helloInterval = setInterval(changeHello, 10000)
-	
+
 };
 
  $(document).ready(function(){
      changeHello();
-     
+
    });
 
 
-const HELLOS = 
+const HELLOS =
 [
-	"Hello World!",//max length ~~~12 char
+	"Hello World!",
 	"Well Met",
 	"Greetings",
 	"Good Day",
 	"What's Up?",
 	"What’s New?",
-	"How Goes It?", 
+	"How Goes It?",
 	"Cheers",
 	"Salutations",
 	"Ahoy",

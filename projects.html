@@ -18,8 +18,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4.1.0/dist/masonry.pkgd.min.js"></script>
-
+  <script src="https://unpkg.com/masonry-layout@4.1.0/dist/masonry.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
   <script src="js/projects.js"></script>
   <script src="js/projectsCards.js"></script>
   <script src="js/main.js"></script>
@@ -67,7 +67,23 @@
 
   <div class="container" style="width:85%;">
     <div class="row" id="projects-space">
-
+      <div class="col m12 l6" v-for="project in projects">
+        <div class="card animated slideInUp">
+          <a v-bind:href="project.hostLink" target="_blank" >
+            <span class="card-header link-grey">{{project.title}}</span>
+          </a>
+          <div class="card-image">
+            <a v-bind:href="project.hostLink">
+              <img class="project-img" v-bind:src="project.imgLink" />
+            </a>
+          </div>
+          <div class="card-content">
+            <p v-html="project.desciption"></p>
+            <a class="waves-effect waves-light btn  blue darken-4" target="_blank" v-bind:href="project.hostLink">Check it out</a>
+            <a class="waves-effect waves-light btn  blue darken-4" target="_blank" v-bind:href="project.githubLink">Github</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
