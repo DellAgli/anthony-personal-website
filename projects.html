@@ -79,8 +79,8 @@
           </div>
           <div class="card-content">
             <p v-html="project.desciption"></p>
-            <a class="waves-effect waves-light btn  blue darken-4" target="_blank" v-bind:href="project.hostLink">Check it out</a>
-            <a class="waves-effect waves-light btn  blue darken-4" target="_blank" v-bind:href="project.githubLink">Github</a>
+            <a v-bind:class="{disabled: !project.hostLink}" class="waves-effect waves-light btn  blue darken-4" target="_blank" v-bind:href="project.hostLink">Check it out</a>
+            <a v-bind:class="{disabled: !project.githubLink}" class="waves-effect waves-light btn  blue darken-4" target="_blank" v-bind:href="project.githubLink">Github</a>
           </div>
         </div>
       </div>
