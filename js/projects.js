@@ -26,6 +26,14 @@ PROJECTS = [
 
 },
 
+{
+	title: "Name History Visualizer",
+	desciption: "This is a web application to to visualize Male/Female distributions of names in the US over time. Uses data aquired from United States Census data from a Google BigQuery public dataset. Also uses pronouciation data from CMUSphinx to determine names which are homonyms (dictionary file). Graphs constructed using billboard.js and data is managed by SQL and ASP.NET WebServices.",
+	imgLink: "media/Names.PNG",
+	hostLink: null,
+	githubLink: "https://github.com/DellAgli/US-Census-Name-History-Visualizer"
+
+},
 /**
 {
 	title: "",
